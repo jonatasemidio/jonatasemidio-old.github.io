@@ -169,7 +169,7 @@ If you want to have a static message in your intro layout, disable the dynamic-t
     <div class="col-md-10 col-md-offset-1">
       <h2 id="about">Sobre</h2>
 
-<p>Sou Jonatas Emidio, Desenvolvedor de Software e até o momento meu passatempo é escrever códigos</p>
+<p>Sou Jonatas Emidio, Desenvolvedor de Software e até o momento meu passatempo favorito é escrever códigos</p>
     </div>
   </div>
 </section>
@@ -331,9 +331,10 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 
   var myQuotes =  new Array();
   
+    myQuotes.push("Paul Dirac");
+  
     myQuotes.push("É certo que o universo começou num momento definido por um ato de Criação.");
   
-    myQuotes.push("Paul Dirac");
   
 
   function shuffle(array) {
@@ -362,8 +363,8 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
     $(".intro-text").typed({
                   strings: myQuotes,
                   typeSpeed: 10,
-                  backDelay: 5000,
-                  startDelay: 200,
+                  backDelay: 4000,
+                  startDelay: 100,
                   loop: true,
                   loopCount: false,
                   cursorChar: "|"
